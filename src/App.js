@@ -1,13 +1,10 @@
 import './App.css';
-import React from 'react';
+import React, {useState} from 'react';
 
-class App extends React.Component{
-  state = {
-    drinks : [],
-    api_url : ""
-  }
+function App(){
+	const [drinks, setDrinks] = useEffect([]);
 
-  render = () => {
+
     return(
       <div>
         {/* Build up a form that connects to thecocktaildb API */}
@@ -17,7 +14,6 @@ class App extends React.Component{
         {/* Display the array of drinks in the page. Place just the name of the drink and an image*/}
       </div>
     )
-  }
 }
 
 export default App;
