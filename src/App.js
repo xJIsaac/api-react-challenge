@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  state = {
+    drinks : [],
+    api_url : ""
+  }
+
+  render = () => {
+    return(
+      <div>
+        {/* Build up a form that connects to thecocktaildb API */}
+        {/* The form only requires a text field so that the user can input the name of a drink */}
+        {/* On the submission of the form you must connect to the API, grab the information and update the array of drinks in the state*/}
+      
+        {/* Display the array of drinks in the page. Place just the name of the drink and an image*/}
+      </div>
+    )
+  }
 }
 
 export default App;
