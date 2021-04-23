@@ -11,7 +11,7 @@ function App(){
         {/* The form only requires a text field so that the user can input the name of a drink and a button for submission */}
         {/* On the submission of the form you must connect to the API, grab the information with the search criteria and update the array of drinks in the state*/}
       
-        {/* Display the array of drinks in the page. Place just the name of the drink and an image*/}
+        {/* Display the array of drinks in the page. Place just the names of the drinks and and their image*/}
       </div>
     )
 }
