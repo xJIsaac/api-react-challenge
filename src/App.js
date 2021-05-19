@@ -31,7 +31,7 @@ function App() {
         <label>Search news: </label>
         <input
           type="text"
-          name="criteria"
+          name="keyword"
           onChange={formChangeHandler}
           value={keyword}
         ></input>
